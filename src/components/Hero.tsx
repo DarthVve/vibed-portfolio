@@ -9,9 +9,9 @@ export function Hero() {
           <span className="font-mono text-sm">$ whoami</span>
         </div>
 
-        <h1 className="text-6xl md:text-8xl font-bold mb-4 font-mono">
+        <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold mb-4 font-mono leading-tight break-words">
           <span className="text-emerald-400">&lt;</span>
-          Vire Majoroh
+          <span className="block sm:inline">Vire Majoroh</span>
           <span className="text-emerald-400"> /&gt;</span>
         </h1>
 
