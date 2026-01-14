@@ -6,7 +6,7 @@ export function Contact() {
       <div className="max-w-4xl w-full">
         <div className="mb-12">
           <span className="font-mono text-emerald-400 text-sm">// Get In Touch</span>
-          <h2 className="text-4xl md:text-5xl font-bold font-mono mt-2">
+          <h2 className="text-3xl md:text-5xl font-bold font-mono mt-2">
             <span className="text-emerald-400">{'<'}</span>
             Contact
             <span className="text-emerald-400">{' />'}</span>
@@ -26,7 +26,9 @@ export function Contact() {
             <span className="text-blue-400">contact</span> ={' '}
             <span className="text-slate-300">{'{'}</span>
             <br />
-            &nbsp;&nbsp;email: <span className="text-amber-400">'your.email@example.com'</span>,
+            &nbsp;&nbsp;email: <span className="text-amber-400">'osheviremajoroh@gmail.com'</span>,
+            <br />
+            &nbsp;&nbsp;phone: <span className="text-amber-400">'+2348135520498'</span>
             <br />
             &nbsp;&nbsp;availability: <span className="text-emerald-400">true</span>,
             <br />
@@ -38,46 +40,50 @@ export function Contact() {
 
         <div className="grid md:grid-cols-2 gap-6 mb-8">
           <a
-            href="mailto:your.email@example.com"
+            target="_blank"
+            href="mailto:osheviremajoroh@gmail.com"
             className="flex items-center gap-4 bg-slate-950 p-6 rounded border border-slate-800 hover:border-emerald-500/50 transition-colors group"
           >
             <Mail className="w-8 h-8 text-emerald-400 group-hover:scale-110 transition-transform" />
             <div>
               <h3 className="font-mono font-semibold mb-1">Email</h3>
-              <p className="text-sm text-slate-400">your.email@example.com</p>
+              <p className="text-sm text-slate-400">osheviremajoroh@gmail.com</p>
             </div>
           </a>
 
           <a
-            href="https://linkedin.com"
+            target="_blank"
+            href="https://www.linkedin.com/in/viremaj"
             className="flex items-center gap-4 bg-slate-950 p-6 rounded border border-slate-800 hover:border-emerald-500/50 transition-colors group"
           >
             <Linkedin className="w-8 h-8 text-emerald-400 group-hover:scale-110 transition-transform" />
             <div>
               <h3 className="font-mono font-semibold mb-1">LinkedIn</h3>
-              <p className="text-sm text-slate-400">/in/yourprofile</p>
+              <p className="text-sm text-slate-400">/in/viremaj</p>
             </div>
           </a>
 
           <a
-            href="https://github.com"
+            target="_blank"
+            href="https://github.com/DarthVve"
             className="flex items-center gap-4 bg-slate-950 p-6 rounded border border-slate-800 hover:border-emerald-500/50 transition-colors group"
           >
             <Github className="w-8 h-8 text-emerald-400 group-hover:scale-110 transition-transform" />
             <div>
               <h3 className="font-mono font-semibold mb-1">GitHub</h3>
-              <p className="text-sm text-slate-400">@yourusername</p>
+              <p className="text-sm text-slate-400">@DarthVve</p>
             </div>
           </a>
 
           <a
-            href="https://twitter.com"
+            target="_blank"
+            href="https://twitter.com/ElitistDev"
             className="flex items-center gap-4 bg-slate-950 p-6 rounded border border-slate-800 hover:border-emerald-500/50 transition-colors group"
           >
             <Twitter className="w-8 h-8 text-emerald-400 group-hover:scale-110 transition-transform" />
             <div>
               <h3 className="font-mono font-semibold mb-1">Twitter</h3>
-              <p className="text-sm text-slate-400">@yourusername</p>
+              <p className="text-sm text-slate-400">@ElitistDev</p>
             </div>
           </a>
         </div>
@@ -85,11 +91,11 @@ export function Contact() {
         <footer className="text-center pt-8 border-t border-slate-800">
           <p className="font-mono text-slate-500">
             <span className="text-emerald-400">{'<'}</span>
-            Built with React + TypeScript + Tailwind
+            I deliver impact by providing value to my clients.
             <span className="text-emerald-400">{' />'}</span>
           </p>
           <p className="font-mono text-slate-500 mt-2">
-            © 2024 Vire Majoroh. All rights reserved.
+            © {new Date().getFullYear()} Engr. Vire Majoroh. All rights reserved.
           </p>
         </footer>
       </div>

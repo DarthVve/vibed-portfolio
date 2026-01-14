@@ -43,7 +43,7 @@ export function Skills() {
       <div className="max-w-7xl w-full">
         <div className="mb-12">
           <span className="font-mono text-emerald-400 text-sm">// Tech Stack</span>
-          <h2 className="text-4xl md:text-5xl font-bold font-mono mt-2">
+          <h2 className="text-3xl md:text-5xl font-bold font-mono mt-2">
             <span className="text-emerald-400">{'<'}</span>
             Skills
             <span className="text-emerald-400">{' />'}</span>
@@ -60,7 +60,7 @@ export function Skills() {
                 <span className="text-slate-500">{'// '}</span>
                 {category.category}
               </h3>
-              <ul className="space-y-2 overflow-y-auto p-6 pt-4 flex-1">
+              <ul className="space-y-2 overflow-y-auto p-6 pt-4 flex-1 custom-scrollbar">
                 {category.skills.map((skill) => (
                   <li key={skill} className="text-slate-300 flex items-center gap-2 text-sm">
                     <span className="text-emerald-400 font-mono flex-shrink-0">{'>'}</span>
@@ -80,7 +80,11 @@ export function Skills() {
             <span className="text-blue-400">currentlyLearning</span> ={' '}
             <span className="text-slate-300">[</span>
             <br />
+            &nbsp;&nbsp;<span className="text-amber-400">'GoLang'</span>,
+            <br />
             &nbsp;&nbsp;<span className="text-amber-400">'Rust'</span>,
+            <br />
+            &nbsp;&nbsp;<span className="text-amber-400">'Solidity'</span>,
             <br />
             &nbsp;&nbsp;<span className="text-amber-400">'Kubernetes'</span>,
             <br />

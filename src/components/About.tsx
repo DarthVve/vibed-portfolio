@@ -6,7 +6,7 @@ export function About() {
       <div className="max-w-6xl w-full">
         <div className="mb-12">
           <span className="font-mono text-emerald-400 text-sm">// About Me</span>
-          <h2 className="text-4xl md:text-5xl font-bold font-mono mt-2">
+          <h2 className="text-3xl md:text-5xl font-bold font-mono mt-2">
             <span className="text-emerald-400">{'<'}</span>
             Background
             <span className="text-emerald-400">{' />'}</span>

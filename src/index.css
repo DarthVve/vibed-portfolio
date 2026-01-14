@@ -15,3 +15,18 @@ body {
 .font-mono {
   font-family: 'Fira Code', 'Courier New', monospace;
 }
+
+@layer utilities {
+  .custom-scrollbar::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background: transparent;
+  }
+
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    @apply bg-emerald-400 rounded-full;
+  }
+}
