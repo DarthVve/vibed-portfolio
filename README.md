@@ -18,7 +18,7 @@ Built with a robust, modern frontend architecture:
 -   **Build Tool**: [Vite](https://vitejs.dev/)
 -   **Styling**: [Tailwind CSS](https://tailwindcss.com/)
 -   **Icons**: [Lucide React](https://lucide.dev/)
--   **Deployment**: Vercel 
+-   **Deployment**: Vercel
 
 ## ✨ Features
 
