@@ -11,7 +11,7 @@ export function Hero() {
 
         <h1 className="text-6xl md:text-8xl font-bold mb-4 font-mono">
           <span className="text-emerald-400">&lt;</span>
-          VIre
+          Vire Majoroh
           <span className="text-emerald-400"> /&gt;</span>
         </h1>
 

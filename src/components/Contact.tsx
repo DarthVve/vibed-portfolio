@@ -89,7 +89,7 @@ export function Contact() {
             <span className="text-emerald-400">{' />'}</span>
           </p>
           <p className="font-mono text-slate-500 mt-2">
-            © 2024 Your Name. All rights reserved.
+            © 2024 Vire Majoroh. All rights reserved.
           </p>
         </footer>
       </div>
