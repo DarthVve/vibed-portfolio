@@ -23,11 +23,11 @@ export function Projects() {
     {
       title: 'Gopaddi',
       description: 'An ERP Application/Ecosystem centered around travel and tourism, poised with a plethora of services for hotels, activities, visa booking, trip planning, social media, shared diaries and trips, a marketplace for travel items and services, and so much more. Find apps in your app store (Google/Apple).',
-      tech: ['React', 'Next.js', 'PHP', 'Node.js', 'MySQL', 'Electron', 'PostgreSQL', 'Bun', 'Hono', 'Socket.io', 'iOS', 'Android (Kotlin)', 'Stripe', 'Paystack', 'Redis', 'Docker', 'AWS', 'Git', 'Jira', 'Miro'],
+      tech: ['React', 'Next.js', 'Golang', 'PHP', 'Node.js', 'MySQL', 'Electron', 'PostgreSQL', 'Bun', 'Hono', 'Socket.io', 'iOS (Swift)', 'Android (Kotlin)', 'Stripe', 'Paystack', 'Redis', 'Docker', 'AWS', 'Git', 'Jira', 'Miro'],
       github: undefined,
       live: "https://www.gopaddi.com",
       fallbackDescription: "This project's source code is currently not available due to an NDA.",
-      fallbackLinks: [{ label: "Gopaddi Personal", url: "https://www.gopaddi.com" }, { label: "Gopaddi Suppliers", url: "https://supplier.gopaddi.com/" }, { label: "Gopaddi App", url: "https://play.google.com/store/search?q=gopaddi&c=apps&hl=en&gl=US" }],
+      fallbackLinks: [{ label: "Gopaddi Pod", url: "https://pod.gopaddi.com" }, { label: "Gopaddi Personal", url: "https://www.gopaddi.com" }, { label: "Gopaddi Suppliers", url: "https://supplier.gopaddi.com/" }, { label: "Gopaddi App", url: "https://play.google.com/store/search?q=gopaddi&c=apps&hl=en&gl=US" }],
     },
     {
       title: 'VivaFemini',
@@ -36,7 +36,7 @@ export function Projects() {
       github: undefined,
       live: "https://www.vivafemini.org",
       fallbackDescription: "This project's source code is currently not available due to an NDA.",
-      fallbackLinks: [{ label: "VivaFemini", url: "https://www.vivafemini.org" }],
+      fallbackLinks: [{ label: "VivaFemini", url: "https://www.vivafemini.org" }, { label: "VivaFemini App (Android)", url: "https://play.google.com/store/apps/details?id=com.vivafemini.app&hl=en" }, { label: "VivaFemini App (iOS)", url: "https://apps.apple.com/ng/app/vivafemini/id6761067112" }],
     },
     {
       title: 'Proof (Patent No: US 10,244,198 B2)',
@@ -66,11 +66,13 @@ export function Projects() {
       fallbackLinks: [{ label: "TchVult", url: "https://tchvult.com" }],
     },
     {
-      title: 'Kreatives Lobby',
-      description: 'Official website of Kreatives Lobby, a not-for-profit organisation driving change through art. They believe art can drive social change by raising awareness of important issues, promoting social justice, building community, and encouraging creativity and innovation.',
-      tech: ['React (Vite)', 'TypeScript', 'React Icons', 'Tailwind CSS', 'Vercel'],
-      github: "https://github.com/DarthVve/kreatives-lobby",
-      live: "https://kreativeslobby.com"
+      title: 'Rayda',
+      description: 'Equip & offboard employee equipment seamlessly. Simplify device shipment, management and retrieval for your global remote team across 170 countries (APAC, LATAM, AFRICA). Our solutions simplify every stage of device management, from procurement to retrieval.',
+      tech: ['React (Vite)', 'PHP', 'MySQL', 'Docker', 'AWS', 'Vercel', 'Tailwind CSS', 'Nginx', 'Composer', 'Laravel', 'Paystack', 'Stripe'],
+      github: undefined,
+      live: "https://rayda.co/",
+      fallbackDescription: "This project's source code is currently not available due to an NDA.",
+      fallbackLinks: [{ label: "Rayda", url: "https://rayda.co/" }],
     }
   ];
 
